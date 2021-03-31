@@ -3,19 +3,19 @@
 
 class tmdbapi():
 	''' TMDB Details key obtainable from https://www.themoviedb.org/settings/api '''
-	key='50393dea0fb0eb249291a50a50ef022a'
+	key=''
 	username=''
 	password=''
 
 
 class youtubeapi():
 	''' Youtube details https://developers.google.com/youtube/v3/getting-started '''
-	apiKey = 'AIzaSyDAZJH9asmAAZoDZL6Gm2lzo30JbCDgVOI'
-	clientId = '634756433129-jk0hptk9htqv9k5or1j8ghgk1n9fb0lb.apps.googleusercontent.com'
-	clientSecret = 'imNME224p06Bmq0ZMOxMRSUA'
+	apiKey = ''
+	clientId = ''
+	clientSecret = ''
 
 
 class url():
 	''' url path to your playlist files, film and tv required are on seperate files ''' 
-	filmpath = 'https://www.dropbox.com/s/ozbzbaknug79kg9/movies.json?dl=1'
-	tvpath   = 'https://www.dropbox.com/s/7anu15cvoeisghx/tvshows.json?dl=1'
+	filmpath = 'https://raw.githubusercontent.com/bigyidbuilds/plugin.video.flixgui.example.basic/20842b0450692c75a9b9559d84ec34677800f4b2/_playlist_example/movies.json'
+	tvpath   = 'https://raw.githubusercontent.com/bigyidbuilds/plugin.video.flixgui.example.basic/20842b0450692c75a9b9559d84ec34677800f4b2/_playlist_example/tvshows.json'
